@@ -1,4 +1,5 @@
 import './App.css'
+import CardQuote from './components/CardQuote'
 
 function App() {
 
@@ -6,6 +7,7 @@ function App() {
     <>
     <div>Hello</div>
     this is a test
+    <CardQuote />
     </>
   )
 }
