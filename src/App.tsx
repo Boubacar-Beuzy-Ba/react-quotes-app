@@ -5,11 +5,9 @@ function App() {
 
   return (
     <>
-    <div>Hello</div>
-    this is a test
-    <CardQuote />
+      <CardQuote />
     </>
-  )
+  );
 }
 
 export default App
