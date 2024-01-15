@@ -5,7 +5,7 @@ export interface Category {
 }
 
 export const getQuotes = async () => {
-  const apiKey = "2QXg9y9ZW9UrGQmAHRNe8g==Z9rDYNyplQP1upy4";
+  const apiKey = import.meta.env.VITE_X_API_KEY;
   const data = await axios.get(
     "https://api.api-ninjas.com/v1/quotes?category=happiness",
     {
